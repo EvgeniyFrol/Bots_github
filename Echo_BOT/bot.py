@@ -30,12 +30,12 @@ def echo(message):
             bot.send_message(message.chat.id, f'У тебя выпало {str(user_num)}')
             bot.send_message(message.chat.id, f'У меня выпало {str(my_num)}')
             if user_num > my_num:
-                bot.send_message(message.chat.id, 'Просто повезло!')
+                bot.send_message(message.chat.id, 'Ты победил! Просто повезло!')
                 sticker = open('fuck.tgs', 'rb')
                 bot.send_sticker(message.chat.id, sticker)
             elif user_num == my_num:
-                bot.send_message(message.chat.id, 'Невероятно! Вот это удача!')
-                sticker = open('тщ_цфн.tgs', 'rb')
+                bot.send_message(message.chat.id, 'Невероятно! Вот это реальная удача!')
+                sticker = open('no_way.tgs', 'rb')
                 bot.send_sticker(message.chat.id, sticker)
             else:
                 bot.send_message(message.chat.id, 'Я победил! Не расстраивайся. Повезет в следующий раз')
