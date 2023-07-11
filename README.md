@@ -1,6 +1,6 @@
 # Telegram Bot
 
-This is a simple Telegram bot written in Python using the `telebot` library. The bot has the following features:
+This is a simple Telegram bot written in Python using the `﻿pyTelegramBotAPI` library. The bot has the following features:
 
 - Greets the user and provides a menu with options.
 - Allows the user to test their luck by comparing random numbers.
@@ -14,7 +14,7 @@ To use this bot, you need to have Python installed on your machine. Follow these
 1. Clone this repository to your local machine.
 2. Install the required dependencies by running `pip install -r requirements.txt`.
 3. Obtain a bot token from the [BotFather](https://core.telegram.org/bots#botfather) and update the `config.py` file with your token.
-4. Run the bot by executing the `main.py` script.
+4. Run the bot by executing the `bot.py` script.
 
 ## Usage
 
